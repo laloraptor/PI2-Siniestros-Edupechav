@@ -70,7 +70,7 @@ Después de lo anterior se realizó un **análisis de Variables Categóricas**, 
 - Que motociclistas y peatones son las principales víctimas y que los roles más comunes fueron conductor y peatón  
 
 ## Exploración Gráfica
-Después de realizar el análisis descriptivo se procedió a realizar un análisis gráfico que fue dividido en tres partes. Un análisis de gráficos generales, una matríz de correlación, y gráficos específicos orientados por esta última. A continuación se comentan los hallazgos más relevantes de este apaetado
+Después de realizar el análisis descriptivo se procedió a realizar un análisis gráfico que fue dividido en tres partes. Un análisis de gráficos generales, una matríz de correlación, y gráficos específicos orientados por esta última. A continuación se comentan los hallazgos más relevantes de este apartado
 
 ### Gráficos generales
 En el apartado de graficas generales se observó que los **hombres jóvenes entre 20 y 40 años son los más afectados por siniestros viales mortales**, y que la edad con el mayor fue los 40 años. En las mujeres la mayor frecuencia de afectadas se da entre los 40 y 60 años; lo que sugiere **patrones diferentes** en que hombres y mujeres se ven involucrados en siniestros viales.  
