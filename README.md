@@ -123,6 +123,8 @@ Por su parte, el 2do y el 3ro despliegan información espacial y temporal, y en 
 
 ![png](2_EDA_EDP_Final_files/power3.png)
 
+
+
 ![png](2_EDA_EDP_Final_files/power4.png)
 
 Finalmente, el último presenta los KPIs solicitados con filtros para explorar el cumplimiento por año. 
