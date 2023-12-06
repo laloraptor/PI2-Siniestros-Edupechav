@@ -44,14 +44,13 @@ Los datos corresponden a información sobre siniestros viales ocurridos en la Ci
 
 Las variables de clasificación categorizan a los vehículos participantes en tipos como auto, moto, bicicleta, camión, peatón, etc. También permite identificar siniestros con múltiples vehículos involucrados. El diccionario de datos y la base en sí puede encontrarse aquí: [Base homicidios](Data%20and%20notebooks/bases/homicidios.xlsx)
 
-
 # Preparación
-Con el fin de poder realizar los análisis necesarios se realizó el proceso de ETL (Extracción, Transformación y Carga) de los datos proporcionados por el observatorio.  El proceso consistió en extraer los archivos, detectar y eliminar valores duplicados y nulos, normalizar cadenas de texto, eliminar columnas innecesarias y fusionar DF con información valiosa. El archivo con el proceso es [1.ETL_EPC_Siniestros](Data%20and%20notebooks\1.ETL_EDP_Siniestros.ipynb) . Del cual emergió la base [siniestros.parquet](Data%20and%20notebooks\bases\siniestros.parquet) que fue utilizada para realizar el análisis exploratorio de los datos. 
+Con el fin de poder realizar los análisis necesarios se realizó el proceso de ETL (Extracción, Transformación y Carga) de los datos proporcionados por el observatorio.  El proceso consistió en extraer los archivos, detectar y eliminar valores duplicados y nulos, normalizar cadenas de texto, eliminar columnas innecesarias y fusionar DF con información valiosa. El archivo con el proceso es [1.ETL_EPC_Siniestros](Data%20and%20notebooks/1.ETL_EDP_Siniestros.ipynb). Del cual emergió la base [siniestros.parquet](Data%20and%20notebooks/bases/siniestros.parquet) que fue utilizada para realizar el análisis exploratorio de los datos. 
 
 
 # Análisis Exploratorio EDA
 
-Durante esta fase se obtuvo información general del conjunto de datos procesado por ETL. La libreta con el código puede encontrarse aquí: [2.EDA_EDP](Data%20and%20notebooks\2_EDA_EDP_Final.ipynb). Una versión más "amigable", libre de código y en formato MD puede encontrarse aquí: [Análisis_exploratorio_sin_código](Analisis%20exploratorio%20sin%20código.md)- A continuación se expone un breve resumen de los hallazgos de esta parte
+Durante esta fase se obtuvo información general del conjunto de datos procesado por ETL. La libreta con el código puede encontrarse aquí: [2.EDA_EDP](Data%20and%20notebooks/2_EDA_EDP_Final.ipynb). Una versión más "amigable", libre de código y en formato MD puede encontrarse aquí: [Análisis_exploratorio_sin_código](Analisis%20exploratorio%20sin%20código.md). A continuación se expone un breve resumen de los hallazgos de esta parte
 
 En primer lugar se realizó un **análisis estadístico de las variables tratadas como numéricas** para obtener estadísticas como media, desviación estándar, valores mínimos y máximos. Se encontró que:
 
