@@ -137,4 +137,4 @@ A partir del análisis realizado sobre los siniestros viales con víctimas fatal
 
 - El tiempo entre el incidente y la muerte tiende a ser mayor entre semana, sugiriendo potenciales diferencias en gravedad de los hechos o en la atención médica brindada, que podría profundizarse en futuros análisis.
 
-Se recomienda profundizar el estudio de los factores culturales y del entorno vial que podrían explicar la acentuada vulnerabilidad diferencial de hombres y mujeres frente a distintos tipos de siniestros. Asimismo, focalizar en comunas de alto riesgo iniciativas de concientización y prevención orientadas a motociclistas y peatones.
+Por último, se recomienda profundizar el estudio de los factores culturales y del entorno vial que podrían explicar la acentuada vulnerabilidad diferencial de hombres y mujeres frente a distintos tipos de siniestros. Asimismo, también es importante focalizar en las comunas de alto riesgo, así como en iniciativas de concientización y prevención orientadas a la protección de motociclistas y peatones.
