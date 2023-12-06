@@ -43,7 +43,7 @@ El cálculo es exactamente el mismo que el del KPI1, con la diferencia de que un
 # Datos
 Los datos corresponden a información sobre siniestros viales ocurridos en la Ciudad de Buenos Aires. Incluyen variables como identificador único del siniestro, fecha, hora, lugar, dirección normalizada, geolocalización, cantidad de víctimas, y clasificación de los vehículos participantes en víctima y acusado.
 
-Las variables de clasificación categorizan a los vehículos participantes en tipos como auto, moto, bicicleta, camión, peatón, etc. También permite identificar siniestros con múltiples vehículos involucrados. El diccionario de datos y la base en sí puede encontrarse aquí: [Base homicidios](Data%20and%20notebooks/bases/homicidios.xlsx)
+Las variables de clasificación categorizan a los vehículos participantes en tipos como auto, moto, bicicleta, camión, peatón, etc. El diccionario de datos y la base en sí puede encontrarse aquí: [Base homicidios](Data%20and%20notebooks/bases/homicidios.xlsx)
 
 # Preparación
 Con el fin de poder realizar los análisis necesarios se realizó el proceso de ETL (Extracción, Transformación y Carga) de los datos proporcionados por el observatorio.  El proceso consistió en extraer los archivos, detectar y eliminar valores duplicados y nulos, normalizar cadenas de texto, eliminar columnas innecesarias y fusionar DF con información valiosa. El archivo con el proceso es [1.ETL_EPC_Siniestros](Data%20and%20notebooks/1.ETL_EDP_Siniestros.ipynb). Del cual emergió la base [siniestros.parquet](Data%20and%20notebooks/bases/siniestros.parquet) que fue utilizada para realizar el análisis exploratorio de los datos. 
@@ -114,11 +114,11 @@ En este sentido, se desagregaron estos datos por género y se encontró que en l
 ![png](2_EDA_EDP_Final_files/2_EDA_EDP_Final_60_0.png)
 
 # Tablero Power BI
-Con el fin de ofrecer una presentación dinámica de estos hallazgos se realizó un [tablero interactivo](Edu_powerbi.pbix) en PowerBI que tiene 4 apartados. El primero se muestra a continuación, contiene la información más general sobre los datos; basicamente contiene el Top No. 5 de algunas variables de interés. 
+Con el fin de ofrecer una presentación dinámica de estos hallazgos se realizó un [tablero interactivo](Edu_powerbi.pbix) en PowerBI; éste fue realizado importanto la base .parquet señalada antes y realizando diversas transformaciones y creaciones en entorno de trabajo. El tablero cuenta con 4 apartados. El primero se muestra a continuación, contiene la información más general sobre los datos. Basicamente contiene el Top No. 5 de observaciones más relevantes. 
 
 ![png](2_EDA_EDP_Final_files/power1.png)
 
-Por su parte, el 2do y el tercero despliegan información espacial y temporal y se proporcionan filtros para poder obtener información lo más específica posible. 
+Por su parte, el 2do y el 3ro despliegan información espacial y temporal, y en ellos se proporcionan filtros para poder obtener información lo más específica posible. 
 
 Finalmente, el último presenta los KPIs solicitados con filtros para explorar el cumplimiento por año. 
 ![png](2_EDA_EDP_Final_files/power2.png)
