@@ -115,12 +115,12 @@ En este sentido, se desagregaron estos datos por género y se encontró que en l
 # Tablero Power Bi
 Con el fin de ofrecer una presentación dinámica de estos hallazgos se realizó un [tablero interactivo](Edu_powerbi.pbix) en PowerBI que tiene 4 apartados. El primero se muestra a continuación, contiene la información más general sobre los datos; basicamente contiene el Top No. 5 de algunas variables de interés. 
 
-![tablero1](2_EDA_EDP_Final_files\power1.png)
+![tablero1](2_EDA_EDP_Final_files/power1.png)
 
 Por su parte, el 2do y el tercero despliegan información espacial y temporal y se proporcionan filtros para poder obtener información lo más específica posible. 
 
 Finalmente, el último presenta los KPIs solicitados con filtros para explorar el cumplimiento por año. 
-![Power2](2_EDA_EDP_Final_files\power2.png)
+![Power2](2_EDA_EDP_Final_files/power2.png)
 
 # Conclusiones
 
