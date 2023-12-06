@@ -113,7 +113,7 @@ En este sentido, se desagregaron estos datos por género y se encontró que en l
 
 ![png](2_EDA_EDP_Final_files/2_EDA_EDP_Final_60_0.png)
 
-# Tablero Power Bi
+# Tablero Power BI
 Con el fin de ofrecer una presentación dinámica de estos hallazgos se realizó un [tablero interactivo](Edu_powerbi.pbix) en PowerBI que tiene 4 apartados. El primero se muestra a continuación, contiene la información más general sobre los datos; basicamente contiene el Top No. 5 de algunas variables de interés. 
 
 ![png](2_EDA_EDP_Final_files/power1.png)
