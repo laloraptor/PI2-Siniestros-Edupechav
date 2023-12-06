@@ -1,0 +1,7 @@
+Victima,Anio_Siniestro,Victimas actual,Poblacion actual,Anio_anterior,Victimas anterior,Poblacion anterior
+Moto,2016,65,3059122,2015,,
+Moto,2017,56,3063728,2016,65,3059122
+Moto,2018,61,3068043,2017,56,3063728
+Moto,2019,50,3072029,2018,61,3068043
+Moto,2020,29,3075646,2019,50,3072029
+Moto,2021,45,3078836,2020,29,3075646

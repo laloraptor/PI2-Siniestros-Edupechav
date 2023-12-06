@@ -1,6 +1,3 @@
-# PI2-Siniestros-Edupechav
- Proyecto individual No. 2. Para bootcamp Soy Henry. Ft17
- 
 ![Banner_henry](https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg)
 # Análisis de siniestros viales en CABA
 En este proyecto se simula el rol de un analista de datos con el fin de analizar los accidentes de tránsito con víctimas fatales en la Ciudad de Buenos Aires (CABA) entre 2016 y 2021. El proyecto simula ser realizado para el Observatorio de Movilidad y Seguridad Vial, que opera como parte de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires
