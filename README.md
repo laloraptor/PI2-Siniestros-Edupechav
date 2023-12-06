@@ -27,7 +27,7 @@ Los KPIs pedidos por el observatorio, de acuerdo a las metas buscadas, son:
 
 * **Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior**
 
-Para ello se define la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000. Es necesario especificar que, debido a que se pide una comparación temporal es necesario generar la tasa semestral para cada mitad del año, de manera que el cálculo debe corregise y basicamente quedaría de este modo: resta de la tasa del semestre anterior (victimas semestre anterior/población del semestre anterior) menos la tasa del año actual (victimas semestre actual/población del semestre actualr) y dividir el resultado entre la tasa del semestre anterior. 
+Para ello se define la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000. Es necesario especificar que, debido a que se pide una comparación temporal es necesario generar la tasa semestral para cada mitad del año, de manera que el cálculo debe corregise y basicamente quedaría de este modo: resta de la tasa del semestre anterior (víctimas semestre anterior/población del semestre anterior) menos la tasa del año actual (víctimas semestre actual/población del semestre actualr) y dividir el resultado entre la tasa del semestre anterior. 
 
 Los datos necesarios provienden de la base descrita antes. Sin embargo, para el cálculo de diferencias en el tiempo se requiere la población total de CABA, así como la población por género para el KPI 3, misma que fue obtenida del CENSO de 2022. El archivo específico es: [Censo_2022](Data%20and%20notebooks/bases/para%20powerbi/proy_1025_depto_caba.xlsx)
 
@@ -37,7 +37,8 @@ Los datos necesarios provienden de la base descrita antes. Sin embargo, para el 
 Se define la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. La fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
 
 * **Reducir en un 10% la tasa de homicidios en siniestros viales de peatones Mujeres de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior**
-El cálculo es exactamente el mismo que el del KPI1, con la diferencia de que unicamente se toman en cuenta las victimas que, en la base de datos, aparecen como Peatones y Mujeres
+
+El cálculo es exactamente el mismo que el del KPI1, con la diferencia de que unicamente se toman en cuenta las víctimas que, en la base de datos, aparecen como Peatones y Mujeres
 
 # Datos
 Los datos corresponden a información sobre siniestros viales ocurridos en la Ciudad de Buenos Aires. Incluyen variables como identificador único del siniestro, fecha, hora, lugar, dirección normalizada, geolocalización, cantidad de víctimas, y clasificación de los vehículos participantes en víctima y acusado.
