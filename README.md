@@ -2,7 +2,7 @@
 Individual Project No. 2 for the Soy Henry Bootcamp. Ft17
 
 ![Banner_henry](https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg)
-Lee el [
+Lee el ![README_ESP.md](README_ESP.md)
 
 # Analysis of Traffic Accidents in Buenos Aires City
 In this project, the role of a data analyst is simulated in order to analyze traffic accidents with fatal victims in the City of Buenos Aires (CABA) between 2016 and 2021. The project simulates being carried out for the Mobility and Road Safety Observatory, which operates as part of the Transportation Secretariat of the Autonomous City of Buenos Aires Government.
